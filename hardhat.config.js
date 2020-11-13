@@ -16,15 +16,6 @@ task("accounts", "Prints the list of accounts", async () => {
 
 
 module.exports = {
-  defaultNetwork: "rinkeby",
-  networks: {
-    hardhat: {
-    },
-    rinkeby: {
-      url: "https://rinkeby.infura.io/v3/123abc123abc123abc123abc123abcde",
-      accounts: [privateKey1, privateKey2, ...]
-    }
-  },
   solidity: {
     version: "0.7.3",
     settings: {
